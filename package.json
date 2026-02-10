@@ -2,13 +2,10 @@
   "name": "seedloaf-start-bot",
   "version": "1.0.0",
   "main": "bot.js",
-  "scripts": {
-    "start": "node bot.js"
-  },
+  "scripts": { "start": "node bot.js" },
   "dependencies": {
-    "discord.js": "^14.14.1",
-    "puppeteer": "^21.11.0",
-    "@discordjs/rest": "^2.4.0",
-    "discord-api-types": "^0.37.100"
+    "discord.js": "^14.0.0",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^21.0.0"
   }
 }
