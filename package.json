@@ -1,11 +1,14 @@
+// package.json
 {
-  "name": "seedloaf-start-bot",
+  "name": "mc-auto-starter-bot",
   "version": "1.0.0",
   "main": "bot.js",
-  "scripts": { "start": "node bot.js" },
+  "scripts": {
+    "start": "node bot.js"
+  },
   "dependencies": {
     "discord.js": "^14.0.0",
-    "node-fetch": "^3.3.2",
-    "puppeteer": "^21.0.0"
+    "puppeteer": "^21.0.0",
+    "rcon-client": "^4.2.5"
   }
 }
